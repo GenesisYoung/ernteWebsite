@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.genesisstudio.ernteweb.mapper.BigImagesMapper">
+  <resultMap id="BaseResultMap" type="com.genesisstudio.ernteweb.domain.BigImages">
+    <!--@mbg.generated-->
+    <!--@Table big_images-->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="img_id" jdbcType="VARCHAR" property="imgId" />
+    <result column="product_id" jdbcType="INTEGER" property="productId" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    id, img_id, product_id
+  </sql>
+</mapper>

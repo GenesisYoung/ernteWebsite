@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: ernteWeb
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: ${MYSQL_URL}
+    username: ${MYSQL_USERNAME}
+    password: ${MYSQL_PASSWORD}
+    type: com.mysql.cj.jdbc.MysqlConnectionPoolDataSource
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**/*.xml
+  type-aliases-package: com.genesisstudio.ernteweb.domain
